@@ -1,0 +1,36 @@
+			Git All Command
+
+1. git init (create git file and environment)
+2. git status (status of working directory)
+3. git add . (. For all)/ git add  <file name>
+4. git log (user details)
+5. git commit -  m “message”
+6. git show <commit id>
+7. git remote add origin <github/gitlab link>
+8. git push - u origin master/main/branch name
+9. git config - - global user.name “user name”
+10. git config - - global user.email “user email”
+11. git push origin master - -force (if not work properly then forcefully push)
+12. git branch -M main (set branch)
+13. git .gitignore(create a file for ignore file)
+14.git log - -grep “<searching some thing inside this>”
+15. git branch (show branch)
+16.git branch <branchname> (creating a branch name )
+17. git checkout <branchname> (for moving a branch)
+18. git log - - oneline (show details in one line)
+19. git stash (for stashing file)
+20. git stash list (stashing file list)
+21.git stash apply stash@{id/serial number} (find stash file)
+22.git stash clear (clear all stash file)
+23. git reset <file name> / . / -- hard (delete file for staging area or local repo)
+24. git clean - n/ git clean - f (delete untracked file)
+25. git revert  <commit  id> (delete from commit id)
+26. git tag - a <tag name> -m “<message>”  <commit id> (creating a tag)
+27. git tag (show tag)
+28. git show <tag name> (show tag details )
+29. git tag  - d <tag name> (delete tag)
+30. git clone <url> (clone git repo or download)
+31. git merge <branch name> (merge both branch )
+
+
+
